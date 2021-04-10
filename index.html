@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name ="description" content="Intranet Panaderia La Victoria">
+    <meta name="author" content="La Victoria">
+    <title>Intranet Panadería La Victoria</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+  </head>
+   <style>
+        body  {
+            background-color: #ebddc3;
+            color: #5a471d;
+        }
+       .navbar-inverse .navbar-brand{
+        background-color: #be1e2d;
+        color: #ffffff;
+
+       }
+        
+    </style>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #e7931a" >
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button"class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navba" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only>"> Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <button type="submit" class="btn btn-danger btn-lg">Intranet Panadería La Victoria </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" >
+          <form class="navbar-form navbar-right" action="scripts/iniciar-sesion.php" method= "POST">
+            <div class="form-group">
+              <input type ="text" placeholder="Usuario" class="form-control" name="txtUsuario">
+            </div>
+            <div class = "form-group">
+              <input type ="password" placeholder="Contraseña" class="form-control" name ="txtClave">
+            </div>
+            <button type="submit" class="btn btn-danger ">Iniciar Sesión</button>
+          </form>
+        </div
+      </div>
+    </nav>
+    <br>
+    <br>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <img src= "images/panaderia.jpg" width="1139px" height="500px">
+       <h1 class="display-3">Todo Un Placer De Siempre!!!</h1>
+        <p>Somos la empresa de mayor tradición en la producción y comercialización de productos de panadería y pastelería en el eje cafetero.</p>
+        
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Misión</h2>
+          <p>Somos la empresa de mayor tradición en la producción y comercialización de productos de panadería y pastelería en el eje cafetero comprometidos con la calidad, inocuidad y variedad de nuestros productos, la satisfacción de los clientes y el bienestar de nuestros empleados, con responsabilidad social. </p>
+         
+       </div>
+        <div class="col-md-4">
+          <h2>Visión</h2>
+          <p>Para el año 2022,Panadería La Victoria S.A Y DELIA APA S.A serán empresas reconocidas,sólidas,rentables y eficientes,respaldadas en su tradición, inocuidad,calidad y servicio,basados en la estandarización de los procesos, el compromiso y la competencia personal, y la gestión de una adecuada infraestructura y ambiente de trabajo.</p>
+          
+        </div>
+		<div class="col-md-4">
+          <h2>Valores</h2>
+          <p>Respeto por el individuo. *Satisfacción al cliente. *Trabajo en equipo. *La pulcritud. *Eficiencia en el uso de los equipos. *Buena calidad del producto y del servicio. *La compañia actuará a través de sus empleados y socios con un gran sentido ético y teniendo como principios infranqueables la honestidad, la responsabilidad y la dedicación. </p>
+         
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2018 Company, Inc.   Todos Los Derechos Reservados Panadería La Victoria y Deli Apa S.A.
+        <p>&copy; Carrera 23 # 59-67 Av Santander  Teléfono PBX:8810037</p>
+        <p>&copy; E-mail:recepcion@panaderialavictoria.com.co </p>
+
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
